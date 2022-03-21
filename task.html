@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"/>
+    <title>Project 1</title>
+    <style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: montserrat;
+    }
+    
+    nav{
+        background-color: rgb(220, 217, 217);
+        height: 80px;
+        width: 100%;
+    }
+    
+    label.logo{
+        font-size: 25px;
+        line-height: 80px;
+        padding-left: 20px;
+    }
+    
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0% 10px;
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .underline{
+        text-decoration-line: underline;
+    }
+    
+    
+    /* .container{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 4fr;
+        position: fixed;
+        padding-top: 5px;
+    } */
+    
+    #grid-1{
+        background-color: lightgray;
+        width: 19%;
+        float: left;
+        padding: 5px;
+        height: 570px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+        margin-top: 10px;
+    }
+    
+    .upper{
+        line-height: 60px;
+        padding-bottom: 120px;
+        padding-top: 30px;
+        font-family: monserrat;
+        font-size: 20px;
+    }
+    
+    .lower{
+        padding-top: 50px;
+        line-height: 60px;
+        font-size: 20px;
+    }
+    
+    #logos{
+        padding-top: 60px;
+    }
+    
+    #logos a{
+        font-size: 2rem;
+        display: inline-block;
+        padding: 1rem;
+    }
+    
+    #grid-2{
+        background-color: lightgray;
+        width: 80%;
+        float: right;
+        padding: 5px;
+        height: 570px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+        margin-top: 10px;
+    
+    }
+    
+    #grid-3{
+        background-color: rgb(220, 217, 217);
+        font-size: 20px;
+        width: 50%;
+        height: 75%;
+        padding: 5px;
+        text-align: left;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+        margin-top: 110px;
+        margin-left: 290px;
+        line-height: 60px;
+    
+    }
+    
+    .lefty{
+        padding-left: 70px;
+    }
+    
+    #center{
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    #center a{
+        text-decoration: underline;
+    }
+    
+    #centers{
+        text-align: center;
+    }
+    
+    .block{
+        width: 80%;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    hr{
+        width: 80%;
+        margin-left: 50px;
+    }
+    </style>
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <!-- <div id="grid-3"> -->
+        <header>
+            <nav>
+                <label class="logo"><strong>QuizQuip</strong></label>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#"  class="underline">Login/Register</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- </div> -->
+
+    <!-- <div class="container"> -->
+    <section>
+        <div id="grid-1">
+
+            <ul class="upper">
+                <li><a href="#"><strong>Attemp Quiz</strong></a></li>
+                <li><a href="#"><strong>Create Quiz</strong></a></li>
+            </ul>
+            <hr>
+            <ul class="lower">
+                <li><a href="#"><strong>About</strong></a></li>
+                <li><a href="#"><strong>Contact us</strong></a></li>
+            </ul>
+            <div id="logos">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+
+        </div>
+
+        <div id="grid-2">
+            <div id="grid-3">
+                <p class="lefty">Name</p>
+                <hr>
+                <p class="lefty">Email</p>
+                <hr>
+                <p class="lefty">Password</p>
+                <hr>
+                <p class="lefty">Confirm Password</p>
+                <hr>
+                <br>
+                <p id="centers"><button class="block">Register</button></p>
+                <p id="center">Already have an account?<a href="#">Login</a></p>
+            </div>
+
+
+
+            <!-- <div class="Login">
+                <form>
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Password</label>
+                        <input type="password" name="password">
+                    </p>
+                    <p>
+                        <label>Confirm Password</label>
+                        <input type="password" name="password">
+                    </p>
+                    <p class="full">
+                        <button>Register</button>
+                    </p>
+                    <p>
+                        Already have an account?<a href="#">Login</a>
+                    </p>
+                </form>
+                
+            </div> -->
+        </div>
+    </section>    
+    <!-- </div> -->
+</body>
+</html>
